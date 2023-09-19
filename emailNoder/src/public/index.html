@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="/src/public/main.css">
+  </head>
+  <body>
+    
+<div class="container p-4">
+  <div class="row">
+  <div class="col-md-6 offset-md-3">
+    <div class="card-body">
+      <form action="/send-email" method="post">
+        <div class="form-group">
+          <input type="text" name="name" class="form-control" placeholder="Name" autofocus>
+
+          <div class="form-group">
+            <input type="text" name="email" placeholder="Email" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <input type="text" name="phone" placeholder="Phone" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <textarea name="message" rows="2" class="form-control" placeholder="Message"></textarea>
+          </div>
+<button class="btn btn-primary btn-block">
+  send
+</button>
+
+        </div>
+      </form>
+    </div>
+
+  </div>  
+  </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
